@@ -15,5 +15,5 @@ int main() {
     // rows는 포인터 배열
 
     print_2d_arr(rows, 2, 3);
-    // rows는 &arr[0]으로 decay
+    // rows는 &rows[0]으로 decay
 }
